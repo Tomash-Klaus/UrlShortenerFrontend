@@ -1,0 +1,30 @@
+.url-table-item {
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.url-table-item:hover {
+  background-color: #f1f1f1;
+}
+
+.url-cell {
+  max-width: 300px;
+  overflow-x: auto;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.MuiButton-root {
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+}
+
+.MuiButton-containedSecondary {
+  background-color: #e57373;
+  color: white;
+  &:hover {
+    background-color: #d32f2f;
+  }
+}
